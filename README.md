@@ -4,6 +4,7 @@ Simple Stock Checker
 
 This is a simple pricing calculator to determine if a stock should be bought or not using the valuation calculator in this video https://youtu.be/nX2DcXOrtuo
  packages required
+ Note: this is just a gauger of the markets and is not intended to be a one stop tool for you to buy shares
 ## Getting Started
 
 ### Prerequisites
