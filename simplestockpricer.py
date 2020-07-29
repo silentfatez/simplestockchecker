@@ -38,7 +38,7 @@ for i in range(10):
 buyprice=currentshareprice*(1-marginsafety)
 print(buyprice)
 print(current_market_price)
-if buyprice>currentshareprice:
+if buyprice>current_market_price:
     print('buy')
 else:
     print('dont buy')
