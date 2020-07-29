@@ -29,11 +29,11 @@ p_e=float(p_e)
 if p_e>2*growthestimates*100:
     p_e=2*growthestimates*100
 futurevalue=epsttm
-for i in range(10):
+for i in range(9):
     futurevalue+=futurevalue*growthestimates
 futureshareprice=futurevalue*p_e
 currentshareprice=futureshareprice
-for i in range(10):
+for i in range(9):
     currentshareprice=currentshareprice/(1+minrate)
 buyprice=currentshareprice*(1-marginsafety)
 print(buyprice)
